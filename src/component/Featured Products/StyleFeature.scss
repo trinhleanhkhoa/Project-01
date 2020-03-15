@@ -1,0 +1,69 @@
+
+@media screen and (max-Width: 576px){
+    .screen576{
+        margin-right: -85px;
+    }
+}
+//phan nay cua  the a
+.Feature{
+     a{
+    text-decoration: none;
+    color: #6c6c6c;
+    }
+    a:hover{
+        color: #40a944;
+    }
+    .divHover:hover .listIcon{
+        display: block;
+    }
+    .divHover:hover .bgImg{
+        background-image: url(../../img/salas.jpg);
+    }
+    .bgImg{
+        width: 130px;
+        height: 130px;
+        background-image: url(../../img/mango.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg:hover{
+        background-image: url(../../img/salas.jpg);
+        transition: 0.4s;
+   }
+   .bgImg:hover .listIcon{
+    display: block;
+    }
+   .listIcon{
+    display: none;
+    width: 140px;
+    height: 28px;
+    border-radius: 25px;
+    background: whitesmoke;
+    position: relative;
+    top:-33%;
+    padding: 25px 0;
+    animation: 0.4s text forwards;
+    .spanIcon{
+        // border: 2px solid red;
+        width: 23px;
+        height: 23px;
+        border-radius: 15px;
+        padding: 2px 2px;
+    }
+    .spanIcon:hover{
+       background:#40a944;
+    }
+   }
+}
+@keyframes text {
+    from{
+        transform: translateY(-25px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+

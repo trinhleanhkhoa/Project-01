@@ -1,0 +1,47 @@
+.menuChinh{
+    li{
+        position: relative;
+    }
+    li:hover .menuPhu{
+        display: block;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+    a:hover{
+        color: #40a944;
+    }
+    a:hover .menuPhu{
+        background-color: red;
+    }
+}
+// .menuchinh li:hover .sub-menu {
+//     display: block;
+//    }
+.menuPhu{
+    background-color: white;
+    display: none;
+    position: absolute;
+    opacity: 0.9;
+    padding-left: 0px;
+    padding-left: 15px;
+    z-index: 1;
+    animation: 0.4s ani1 forwards;
+    li{
+        list-style-type: none;
+        width: 175px;
+        text-align: left;
+    }
+}
+
+@keyframes ani1{
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+
+        transform: translateX(0px);
+    }
+}

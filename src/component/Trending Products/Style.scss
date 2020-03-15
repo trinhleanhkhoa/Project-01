@@ -1,0 +1,87 @@
+.Active{
+    border: 1px solid #40a944;
+    color: #40a944;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Disable:hover{
+    border: 1px solid #40a944;
+    color: #40a944;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+@media screen and (max-Width: 576px){
+    #screen576{
+        margin-right: -85px;
+    }
+}
+//phan nay cua  the a
+.trending{
+     a{
+    text-decoration: none;
+    color: #6c6c6c;
+    }
+    a:hover{
+        color: #40a944;
+    }
+    #divHover:hover .listIcon{
+        display: block;
+    }
+    #divHover:hover #bgImg{
+        background-image: url(../../img/tr2.jpg);
+    }
+    #bgImg{
+        width: 205px;
+        height: 205px;
+        background-image: url(../../img/tr1.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg:hover{
+        background-image: url(../../img/tr2.jpg);
+        transition: 0.4s;
+   }
+   #bgImg:hover .listIcon{
+    display: block;
+    }
+   .listIcon{
+    display: none;
+    width: 140px;
+    height: 28px;
+    border-radius: 14px;
+    padding: 2px 0px;
+    background: white;
+    position: relative;
+    padding: 6px 0;
+    left: 15%;
+    top: 75%;
+    animation: 0.4s text forwards;
+    .spanIcon{
+        // border: 2px solid red;
+        width: 23px;
+        height: 23px;
+        border-radius: 15px;
+        padding: 2px 2px;
+    }
+    .spanIcon:hover{
+       background:#40a944;
+    }
+   }
+}
+@keyframes text {
+    from{
+        transform: translateY(15px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+

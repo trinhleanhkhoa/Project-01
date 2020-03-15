@@ -1,0 +1,60 @@
+#bestSellers{
+    #bgImg{
+        width: 120px;
+        height: 120px;
+        background-image: url(../../img/bs2.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    #bgImg:hover{
+        background-image: url(../../img/bs3.jpg);
+        transition: 0.4s;
+   }
+   #khoi:hover #bgImg{
+    background-image: url(../../img/bs3.jpg);
+    transition: 0.4s;
+   }
+    a{
+    text-decoration: none;
+    color: #6c6c6c;
+    }
+    a:hover{
+        color: #40a944;
+    }
+    .listIcon{
+        display: none;
+        width: 140px;
+        height: 40px;
+        border-radius: 25px;
+        margin: -2px -35px;
+        background:navajowhite;
+        position: relative;
+        padding: 4px 0;
+        left: 15%;
+        top: -35px;
+        animation: 0.4s text forwards;
+
+        .spanIcon{
+            font-size: 20px;
+            position: inherit;
+            top:5px;
+        }
+        .spanIcon:hover{
+           font-size: 25px;
+         }
+    }
+    #khoi:hover .listIcon{
+        display: block;
+    }
+
+    
+}
+@keyframes text {
+    from{
+        transform: translateY(15px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
