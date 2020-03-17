@@ -43,7 +43,7 @@ export default class CartStore extends React.Component {
         <div className='container p-0' style={{background:'aliceblue'}}>
           <div  className='row m-0 mt-5'>
   {/* icon */}
-        <div className={this.state.scrolled ? 'col-12 ' : 'col-12 d-none'} style={{ position: 'fixed', top: '50%',left:'-2%',zIndex:'2' }}>
+        <div className={this.state.scrolled ? 'col-1 ' : 'col-1 d-none'} style={{ position: 'fixed', top: '50%',left:'90%',zIndex:'2' }}>
           <div className='float-right divIcon ' style={{zIndex: '1'}} onClick={() => this.onShowCart()} ><span ><i className='fas fa-cart-arrow-down' style={{ fontSize: '35px', position: 'relative', top: '10px', left: '9px' }}></i></span></div>
         </div>
         {/* {/* table */}

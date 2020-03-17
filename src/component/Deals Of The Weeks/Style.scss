@@ -13,12 +13,66 @@
         display: block;
     }
     #divHover:hover #bgImg{
-        background-image: url(../../img/m7.JPG);
+        background-image: url(../../img/mango.jpg);
+        transition: 0.4s;
     }
+    #divHover:hover #bgImg2{
+        background-image: url(../../img/m6.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg3{
+        background-image: url(../../img/m9.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg4{
+        background-image: url(../../img/m10.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg5{
+        background-image: url(../../img/m8.jpg);
+        transition: 0.4s;
+    }
+    
     #bgImg{
         width: 250px;
         height: 250px;
         background-image: url(../../img/m5.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg2{
+        width: 250px;
+        height: 250px;
+        background-image: url(../../img/m4.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg3{
+        width: 250px;
+        height: 250px;
+        background-image: url(../../img/m1.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg4{
+        width: 250px;
+        height: 250px;
+        background-image: url(../../img/salas.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg5{
+        width: 250px;
+        height: 250px;
+        background-image: url(../../img/tr1.jpg);
         background-size: cover;
         cursor: pointer;
         transition: 0.4s;

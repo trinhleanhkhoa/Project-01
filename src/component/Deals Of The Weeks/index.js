@@ -8,10 +8,44 @@ export default class Deals extends React.Component {
         this.state = {
             array: [
                 {
+                    id: 1,
                     text1: 'Răng Súng',
                     text2: '11/04/1999',
                     text3: '$0',
                     text4: '$999999999',
+                    bgImg: 'bgImg'
+                },
+                {
+                    id: 2,
+                    text1: 'Răng Súng',
+                    text2: '11/04/1999',
+                    text3: '$0',
+                    text4: '$999999999',
+                    bgImg: 'bgImg2'
+                },
+                {
+                    id: 3,
+                    text1: 'Răng Súng',
+                    text2: '11/04/1999',
+                    text3: '$0',
+                    text4: '$999999999',
+                    bgImg: 'bgImg3'
+                },
+                {
+                    id: 4,
+                    text1: 'Răng Súng',
+                    text2: '11/04/1999',
+                    text3: '$0',
+                    text4: '$999999999',
+                    bgImg: 'bgImg4'
+                },
+                {
+                    id: 5,
+                    text1: 'Răng Súng',
+                    text2: '11/04/1999',
+                    text3: '$0',
+                    text4: '$999999999',
+                    bgImg: 'bgImg5'
                 }
             ]
         }
@@ -21,7 +55,7 @@ export default class Deals extends React.Component {
             return <div className='col-lg-auto col-md-auto col-sm-5 col-12 ' id='screen576' key={index}>
                 {/* item 1.1 */}
                 <div id='divHover'>
-                    <div id='bgImg'>
+                    <div id={Array.bgImg}>
                         <div><span style={{ float: 'right', margin: '10px', padding: '5px 5px', color: 'white', borderRadius: '10px', background: '#40a944' }}>SALE</span></div>
                         <div className='listIcon'>
                             <span className='spanIcon' ><i className='fas fa-shopping-cart' style={{ fontSize: '15px' }}></i></span>
@@ -49,10 +83,6 @@ export default class Deals extends React.Component {
                     </div>
                     <div className='col-12 deals'>
                         <div className='row text-center m-0' style={{ overflowY: 'auto', height: '395px', width: '100%', flexDirection: 'column', lineHeight: '10px' }}>
-                            {element}
-                            {element}
-                            {element}
-                            {element}
                             {element}
 
 
