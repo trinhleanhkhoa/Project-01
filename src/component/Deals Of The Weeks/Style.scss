@@ -2,13 +2,20 @@
 
 //phan nay cua  the a
 .deals{
-     a{
-    text-decoration: none;
-    color: #6c6c6c;
-    }
-    a:hover{
-        color: #40a944;
-    }
+    p{
+        text-decoration: none;
+        color: #6c6c6c;
+        }
+        p:hover{
+            color: #40a944;
+        }
+        h5{
+            text-decoration: none;
+            color: #6c6c6c;
+            }
+            h5:hover{
+                color: #40a944;
+            }
     #divHover:hover .listIcon{
         display: block;
     }
@@ -34,8 +41,8 @@
     }
     
     #bgImg{
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
         background-image: url(../../img/m5.jpg);
         background-size: cover;
         cursor: pointer;
@@ -43,8 +50,8 @@
         margin: auto;
     }
     #bgImg2{
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
         background-image: url(../../img/m4.jpg);
         background-size: cover;
         cursor: pointer;
@@ -52,8 +59,8 @@
         margin: auto;
     }
     #bgImg3{
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
         background-image: url(../../img/m1.jpg);
         background-size: cover;
         cursor: pointer;
@@ -61,8 +68,8 @@
         margin: auto;
     }
     #bgImg4{
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
         background-image: url(../../img/salas.jpg);
         background-size: cover;
         cursor: pointer;
@@ -70,8 +77,8 @@
         margin: auto;
     }
     #bgImg5{
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
         background-image: url(../../img/tr1.jpg);
         background-size: cover;
         cursor: pointer;
@@ -90,10 +97,10 @@
     width: 140px;
     height: 28px;
     border-radius: 14px;
-    padding: 2px 0px;
+    // padding: 2px 0px;
     background: white;
     position: relative;
-    padding: 6px 0;
+    padding: 2px 0;
     left: 23%;
     top: 75%;
     animation: 0.4s text forwards;

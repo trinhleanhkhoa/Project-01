@@ -6,37 +6,132 @@
 }
 //phan nay cua  the a
 .Feature{
-     a{
+    p{
     text-decoration: none;
     color: #6c6c6c;
     }
-    a:hover{
+    p:hover{
         color: #40a944;
     }
+    h5{
+        text-decoration: none;
+        color: #6c6c6c;
+        }
+        h5:hover{
+            color: #40a944;
+        }
     .divHover:hover .listIcon{
         display: block;
     }
     .divHover:hover .bgImg{
         background-image: url(../../img/salas.jpg);
     }
+    .divHover:hover .bgImg2{
+        background-image: url(../../img/h5.JPG);
+    }
+    .divHover:hover .bgImg3{
+        background-image: url(../../img/h6.JPG);
+    }
+    .divHover:hover .bgImg4{
+        background-image: url(../../img/h7.JPG);
+    }
+    .divHover:hover .bgImg5{
+        background-image: url(../../img/h10.jpg);
+    }
+    .divHover:hover .bgImg6{
+        background-image: url(../../img/h8.JPG);
+    }
+    .divHover:hover .bgImg7{
+        background-image: url(../../img/h9.jpg);
+    }
+    .divHover:hover .bgImg8{
+        background-image: url(../../img/h11.jpg);
+    }
+    .divHover:hover .bgImg9{
+        background-image: url(../../img/h12.jpg);
+    }
     .bgImg{
         width: 130px;
         height: 130px;
-        background-image: url(../../img/mango.jpg);
+        background-image: url(https://www.safefruits.vn/upload/sanpham/lychee.jpg);
         background-size: cover;
         cursor: pointer;
         transition: 0.4s;
     }
-    .bgImg:hover{
-        background-image: url(../../img/salas.jpg);
+    .bgImg2{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://lh3.googleusercontent.com/proxy/ulVzLtj39S-dFzO8hi7RvmVQuLwO3fAlWSGmgCUTz4TEC5VDiZzJewAXBSJ2wVVftEh7nosdDhrjHnUD8CplZmCYS8BMwURYeTdiZquWKZulpzcVgHh9Gsp1NhGeJcuqoXDFbnDgaHq6);
+        background-size: cover;
+        cursor: pointer;
         transition: 0.4s;
-   }
+    }
+    .bgImg3{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://vinfruits.com/wp-content/uploads/2017/02/Luu-do-My-vinfruits.com-1-546x546.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg4{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://d3kg1kmrau77q0.cloudfront.net/food/1022/054c__dua-hau-khong-hat.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg5{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://ecofruits.vn/wp-content/uploads/2019/04/dau-tay-2-570x570.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg6{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://product.hstatic.net/1000191320/product/man_an_phuoc_bac_tom-08.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg7{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://cdn.muabannhanh.com/asset/frontend/img/gallery/2018/12/19/5c19ad60e7e7a_1545186656.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg8{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://lh3.googleusercontent.com/proxy/_chYaTMjIYB144loAQTg1PNfOqJT4QJWBLZCfPag7UFWgnJVh98uw9Pv5AYt8R0XvJVrKEleFFzVzr6gOryf2KnQn9pdlBwVORPpnn-w2a13n2aamk7QwgEycY0fZXDWazri6Gok2Uqa);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .bgImg9{
+        width: 130px;
+        height: 130px;
+        background-image: url(https://hanhphucgiadinh.vn/wp-content/uploads/2013/07/tao1.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+//     .bgImg:hover{
+//         background-image: url(../../img/salas.jpg);
+//         transition: 0.4s;
+//    }
    .bgImg:hover .listIcon{
     display: block;
     }
    .listIcon{
     display: none;
-    width: 140px;
+    width: 187px;
     height: 28px;
     border-radius: 25px;
     background: whitesmoke;
@@ -46,10 +141,10 @@
     animation: 0.4s text forwards;
     .spanIcon{
         // border: 2px solid red;
-        width: 23px;
-        height: 23px;
-        border-radius: 15px;
-        padding: 2px 2px;
+        // width: 23px;
+        // height: 23px;
+        border-radius: 30px;
+        padding: 8px 8px;
     }
     .spanIcon:hover{
        background:#40a944;

@@ -21,32 +21,84 @@
 }
 //phan nay cua  the a
 .mostView{
-     a{
-    text-decoration: none;
-    color: #6c6c6c;
-    }
-    a:hover{
-        color: #40a944;
-    }
+    p{
+        text-decoration: none;
+        color: #6c6c6c;
+        }
+        p:hover{
+            color: #40a944;
+        }
+        h5{
+            text-decoration: none;
+            color: #6c6c6c;
+            }
+            h5:hover{
+                color: #40a944;
+            }
     #divHover:hover .listIcon{
         display: block;
     }
     #divHover:hover #bgImg{
         background-image: url(../../img/m6.jpeg);
     }
+    #divHover:hover #bgImg2{
+        background-image: url(../../img/h1.jpg);
+    }
+    #divHover:hover #bgImg3{
+        background-image: url(../../img/h2.jpeg);
+    }
+    #divHover:hover #bgImg4{
+        background-image: url(../../img/h3.JPG);
+    }
+    #divHover:hover #bgImg5{
+        background-image: url(../../img/h4.JPG);
+    }
     #bgImg{
         width: 205px;
         height: 205px;
-        background-image: url(../../img/m4.jpg);
+        background-image: url(https://vnn-imgs-f.vgcloud.vn/2018/09/11/14/nho-mot-loai-qua-vua-ngon-lai-vua-la-thuoc-quy-phong-ngua-ti-thu-benh-2.jpg);
         background-size: cover;
         cursor: pointer;
         transition: 0.4s;
         margin: auto;
     }
-    #bgImg:hover{
-        background-image: url(../../img/m6.jpeg);
+    #bgImg2{
+        width: 205px;
+        height: 205px;
+        background-image: url(https://bizweb.dktcdn.net/thumb/1024x1024/100/194/749/products/dau-tam.jpg?v=1571903324143);
+        background-size: cover;
+        cursor: pointer;
         transition: 0.4s;
-   }
+        margin: auto;
+    }
+    #bgImg3{
+        width: 205px;
+        height: 205px;
+        background-image: url(https://lh3.googleusercontent.com/proxy/GrNT6rqfAGBjSrnsL4yn6A4ivMi9P6UWworqpEys-C3dVxIp0F4h9kktNQ8G5Noomp56A-u-_f4bzuDCCzPiuIiAFF2kkRclT107X9GEIPfgAGy3YzaON0-UMsm7EYsJ8W7uKLo);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg4{
+        width: 205px;
+        height: 205px;
+        background-image: url(https://vinfruits.com/wp-content/uploads/2018/11/Vu-sua-Lo-Ren-vinfruits.com-3.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg5{
+        width: 205px;
+        height: 205px;
+        background-image: url(https://blogcaycanh.vn/uploads/caycanh/1415666074_mang-cut.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+
    #bgImg:hover .listIcon{
     display: block;
     }
@@ -58,7 +110,7 @@
     padding: 2px 0px;
     background: white;
     position: relative;
-    padding: 6px 0;
+
     left: 15%;
     top: 75%;
     animation: 0.4s text forwards;
