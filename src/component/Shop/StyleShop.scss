@@ -1,0 +1,177 @@
+.shop{
+    .banner-shop{
+        background-image: url('../../img//bannerShop.jpg');
+        background-size: cover;
+        height: 200px;
+    }
+    .fz-15{
+        font-size: 15px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #40a944
+    }
+    ul{
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    li{
+        list-style: none;
+        color:#6c6c6c;
+        font-size: 13px;
+    }
+    li:hover{
+        color: #40a944;
+    }
+
+    .tag{
+        color: #6c6c6c;
+        padding:5px 15px;
+        border: 1px solid #6c6c6c;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0 5px 12px 0;
+    }
+    .tag:hover{
+        background-color: #40a944;
+        color: white;
+        border: 1px solid #40a944;
+    }
+    // phan codpy
+    p{
+        text-decoration: none;
+        color: #6c6c6c;
+        font-size: 12px;
+        }
+        p:hover{
+            color: #40a944;
+        }
+        h5{
+            text-decoration: none;
+            color: #6c6c6c;
+            }
+            h5:hover{
+                color: #40a944;
+            }
+    #divHover:hover .listIcon{
+        display: block;
+    }
+    #divHover:hover #bgImg{
+        background-image: url(../../img/mango.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg2{
+        background-image: url(../../img/m6.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg3{
+        background-image: url(../../img/m9.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg4{
+        background-image: url(../../img/m10.jpg);
+        transition: 0.4s;
+    }
+    #divHover:hover #bgImg5{
+        background-image: url(../../img/m8.jpg);
+        transition: 0.4s;
+    }
+    
+    #bgImg{
+        width: 240px;
+        height: 240px;
+        background-image: url(../../img/m5.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg2{
+        width: 240px;
+        height: 240px;
+        background-image: url(../../img/m4.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg3{
+        width: 240px;
+        height: 240px;
+        background-image: url(../../img/m1.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg4{
+        width: 240px;
+        height: 240px;
+        background-image: url(../../img/salas.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg5{
+        width: 240px;
+        height: 240px;
+        background-image: url(../../img/tr1.jpg);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.4s;
+        margin: auto;
+    }
+    #bgImg:hover{
+        background-image: url(../../img/m7.JPG);
+        transition: 0.4s;
+   }
+   #bgImg:hover .listIcon{
+    display: block;
+    }
+   .listIcon{
+    display: none;
+    width: 140px;
+    height: 28px;
+    border-radius: 14px;
+    // padding: 2px 0px;
+    background: white;
+    position: relative;
+    padding: 2px 0;
+    left: 23%;
+    top: 75%;
+    animation: 0.4s text forwards;
+    .spanIcon{
+        // border: 2px solid red;
+        width: 23px;
+        height: 23px;
+        border-radius: 15px;
+        padding: 2px 2px;
+    }
+    .spanIcon:hover{
+       background:#40a944;
+    }
+   }
+}
+@keyframes text {
+    from{
+        transform: translateY(15px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.page-a{
+    border: none;
+    background-color: white;
+    margin-left: 5;
+}
+@media screen and (max-width: 575px) {
+    .convert {
+      flex-direction: column-reverse;
+    }
+  }

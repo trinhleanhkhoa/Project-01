@@ -12,7 +12,9 @@ body{
   height: 100%;
   width: 100%;
 }
-
+.pageActive{
+  color: #40A944;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
