@@ -5,7 +5,7 @@ import Banner2 from '../../img/b2.jpg'
 import {connect} from 'react-redux'
 import * as action from '../../Actions/index'
 import Tooltip from '../Tooltip/Tooltip'
-
+import {toast } from 'react-toastify';
 
 class Slide extends React.Component {
 
@@ -21,6 +21,7 @@ class Slide extends React.Component {
             }]
         }
     }
+    notify = () => toast("Wow success !");
 
     setActive = (value) => {
         this.setState({
@@ -28,7 +29,7 @@ class Slide extends React.Component {
         });
     }
     addItem=(Array)=>{
-    
+        this.notify()
         this.props.addItem(Array);
     }  
     render() {
@@ -84,6 +85,7 @@ class Slide extends React.Component {
         
         return (
             <div>  
+                
             <div className='container mt-5'>
                 <div className='row'>
                     {/* phan 1 */}
