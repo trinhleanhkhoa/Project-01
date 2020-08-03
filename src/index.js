@@ -10,12 +10,14 @@ import myReducer from './Reducer/index'
 import Direction from './Page/Direction'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ToTopPage from './common/ToTopPage';
 const store=createStore(myReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 
 ReactDOM.render(
     
     <Provider store={store}>
+        <ToTopPage/>
         <ToastContainer autoClose={2000}/>
          <Direction /> 
     </Provider>
