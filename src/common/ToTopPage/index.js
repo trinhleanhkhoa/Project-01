@@ -41,7 +41,7 @@ class ToTopPage extends Component {
                 <p id="id"></p>
                 <div style={{ position: 'fixed', zIndex: '99',bottom:'86px',width:'100%',textAlign:'end' }}>
             
-                    <a href="#id" style={position}><i class="fas fa-angle-double-up"></i></a>
+                    <a href="#id" style={position}><i className="fas fa-angle-double-up"></i></a>
 
                 </div>
             </div>
